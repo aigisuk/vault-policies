@@ -19,7 +19,7 @@ path "sys/auth"
 # List existing policies
 path "sys/policies/acl"
 {
-  capabilities = ["read"]
+  capabilities = ["list"]
 }
 
 # Create and manage ACL policies
