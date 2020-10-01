@@ -40,13 +40,13 @@ path "sys/mounts/*"
   capabilities = ["create", "read", "update", "delete", "list", "sudo"]
 }
 
-# List existing secret engines.
+# Read enabled secrets engines
 path "sys/mounts"
 {
   capabilities = ["read"]
 }
 
-# Allow managing leases
+# Manage leases
 path "sys/leases/*"
 {
   capabilities = ["create", "read", "update", "delete", "list", "sudo"]
